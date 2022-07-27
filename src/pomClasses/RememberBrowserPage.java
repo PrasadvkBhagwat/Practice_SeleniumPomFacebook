@@ -9,6 +9,7 @@ public class RememberBrowserPage {
 	WebDriver driver;
 	
 	private By dontsave = By.xpath("(//input[@type='radio'])[2]");
+
 	private By continuebtn = By.xpath("//button[@value='Continue']");
 	
 	
